@@ -10,7 +10,7 @@ target 'Inke-Demo' do
    pod 'Masonry', '~> 1.0.1'
    pod 'YYKit', '~> 1.0.7'
    pod 'SDWebImage', '~> 3.8.1'
-
+   pod 'MJExtension'
   target 'Inke-DemoTests' do
     inherit! :search_paths
     # Pods for testing

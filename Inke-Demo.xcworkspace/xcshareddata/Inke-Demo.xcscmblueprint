@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EBC66F1F84C9FDADE6E6ACE2A202AF3D45D0ED6D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "14E89A6B0AA94097C98D806779C51228B620225A" : 0,
+    "EBC66F1F84C9FDADE6E6ACE2A202AF3D45D0ED6D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "36B905E8-51B3-4B63-8383-B2E3FAAD7DF9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "14E89A6B0AA94097C98D806779C51228B620225A" : "InkeDemo\/Inke-Demo\/",
+    "EBC66F1F84C9FDADE6E6ACE2A202AF3D45D0ED6D" : "InkeDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Inke-Demo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Inke-Demo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ZjcsHub\/InkeDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "14E89A6B0AA94097C98D806779C51228B620225A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ZjcsHub\/InkeDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EBC66F1F84C9FDADE6E6ACE2A202AF3D45D0ED6D"
+    }
+  ]
+}

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07039A0A1D794FA30026801E /* ZJCBaceHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 07039A091D794FA30026801E /* ZJCBaceHandler.m */; };
+		07039A0D1D79504A0026801E /* ZJCLiveHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 07039A0C1D79504A0026801E /* ZJCLiveHandler.m */; };
+		07039A191D7954340026801E /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 07039A161D7954340026801E /* HttpTool.m */; };
+		07039A1A1D7954340026801E /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 07039A181D7954340026801E /* UIImageView+SDWebImage.m */; };
+		07039A1E1D7956CB0026801E /* ZJCLiveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07039A1C1D7956CB0026801E /* ZJCLiveTableViewCell.m */; };
+		07039A1F1D7956CB0026801E /* ZJCLiveTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07039A1D1D7956CB0026801E /* ZJCLiveTableViewCell.xib */; };
 		078EFF301D77BD3D00DCAD52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 078EFF2F1D77BD3D00DCAD52 /* main.m */; };
 		078EFF391D77BD3D00DCAD52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078EFF371D77BD3D00DCAD52 /* Main.storyboard */; };
 		078EFF3B1D77BD3D00DCAD52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078EFF3A1D77BD3D00DCAD52 /* Assets.xcassets */; };
@@ -27,9 +33,9 @@
 		07C7F6AE1D780AF900AAC8A7 /* ZJCFocuseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C7F6AC1D780AF900AAC8A7 /* ZJCFocuseViewController.m */; };
 		07C7F6AF1D780AF900AAC8A7 /* ZJCFocuseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C7F6AD1D780AF900AAC8A7 /* ZJCFocuseViewController.xib */; };
 		07C7F6B31D780B0900AAC8A7 /* ZJCHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C7F6B11D780B0900AAC8A7 /* ZJCHotViewController.m */; };
-		07C7F6B41D780B0900AAC8A7 /* ZJCHotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C7F6B21D780B0900AAC8A7 /* ZJCHotViewController.xib */; };
 		07C7F6B81D780B1600AAC8A7 /* ZJCNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C7F6B61D780B1600AAC8A7 /* ZJCNearViewController.m */; };
 		07C7F6B91D780B1600AAC8A7 /* ZJCNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C7F6B71D780B1600AAC8A7 /* ZJCNearViewController.xib */; };
+		07C7F6DF1D7867D100AAC8A7 /* ZJCHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C7F6DE1D7867D100AAC8A7 /* ZJCHeaderView.m */; };
 		321AC6EF8A20FA0A5098FA94 /* libPods-Inke-DemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F4311CFBF657F34356A626 /* libPods-Inke-DemoUITests.a */; };
 		F699D6DB6E5B24AB0320B93B /* libPods-Inke-DemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 662E8AE5C53161C6964E2E39 /* libPods-Inke-DemoTests.a */; };
 		FD0F1257D7014F0290B33E4B /* libPods-Inke-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B013C72782DD9FC3FDF9BC /* libPods-Inke-Demo.a */; };
@@ -53,6 +59,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07039A081D794FA30026801E /* ZJCBaceHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCBaceHandler.h; sourceTree = "<group>"; };
+		07039A091D794FA30026801E /* ZJCBaceHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCBaceHandler.m; sourceTree = "<group>"; };
+		07039A0B1D79504A0026801E /* ZJCLiveHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCLiveHandler.h; sourceTree = "<group>"; };
+		07039A0C1D79504A0026801E /* ZJCLiveHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCLiveHandler.m; sourceTree = "<group>"; };
+		07039A141D7954340026801E /* APIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIConfig.h; sourceTree = "<group>"; };
+		07039A151D7954340026801E /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		07039A161D7954340026801E /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		07039A171D7954340026801E /* UIImageView+SDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImage.h"; sourceTree = "<group>"; };
+		07039A181D7954340026801E /* UIImageView+SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDWebImage.m"; sourceTree = "<group>"; };
+		07039A1B1D7956CB0026801E /* ZJCLiveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCLiveTableViewCell.h; sourceTree = "<group>"; };
+		07039A1C1D7956CB0026801E /* ZJCLiveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCLiveTableViewCell.m; sourceTree = "<group>"; };
+		07039A1D1D7956CB0026801E /* ZJCLiveTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJCLiveTableViewCell.xib; sourceTree = "<group>"; };
 		078EFF2B1D77BD3D00DCAD52 /* Inke-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inke-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		078EFF2F1D77BD3D00DCAD52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		078EFF381D77BD3D00DCAD52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -92,10 +110,11 @@
 		07C7F6AD1D780AF900AAC8A7 /* ZJCFocuseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJCFocuseViewController.xib; sourceTree = "<group>"; };
 		07C7F6B01D780B0900AAC8A7 /* ZJCHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCHotViewController.h; sourceTree = "<group>"; };
 		07C7F6B11D780B0900AAC8A7 /* ZJCHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCHotViewController.m; sourceTree = "<group>"; };
-		07C7F6B21D780B0900AAC8A7 /* ZJCHotViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJCHotViewController.xib; sourceTree = "<group>"; };
 		07C7F6B51D780B1600AAC8A7 /* ZJCNearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCNearViewController.h; sourceTree = "<group>"; };
 		07C7F6B61D780B1600AAC8A7 /* ZJCNearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCNearViewController.m; sourceTree = "<group>"; };
 		07C7F6B71D780B1600AAC8A7 /* ZJCNearViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJCNearViewController.xib; sourceTree = "<group>"; };
+		07C7F6DD1D7867D100AAC8A7 /* ZJCHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCHeaderView.h; sourceTree = "<group>"; };
+		07C7F6DE1D7867D100AAC8A7 /* ZJCHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCHeaderView.m; sourceTree = "<group>"; };
 		1024C5CD632A51E0282DFDE3 /* Pods-Inke-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inke-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Inke-Demo/Pods-Inke-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		252BD939CEA1CEE964EE733E /* Pods-Inke-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inke-DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Inke-DemoTests/Pods-Inke-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		57F4311CFBF657F34356A626 /* libPods-Inke-DemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Inke-DemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -223,6 +242,8 @@
 				078EFFAB1D77DCC700DCAD52 /* ZJCBaceViewController.m */,
 				078EFFBC1D77F92700DCAD52 /* ZJCNacVontroller.h */,
 				078EFFBD1D77F92700DCAD52 /* ZJCNacVontroller.m */,
+				07039A081D794FA30026801E /* ZJCBaceHandler.h */,
+				07039A091D794FA30026801E /* ZJCBaceHandler.m */,
 			);
 			path = Bace;
 			sourceTree = "<group>";
@@ -373,6 +394,11 @@
 		078EFF941D77BF7D00DCAD52 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				07039A141D7954340026801E /* APIConfig.h */,
+				07039A151D7954340026801E /* HttpTool.h */,
+				07039A161D7954340026801E /* HttpTool.m */,
+				07039A171D7954340026801E /* UIImageView+SDWebImage.h */,
+				07039A181D7954340026801E /* UIImageView+SDWebImage.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -404,6 +430,8 @@
 		078EFF991D77BF7D00DCAD52 /* Handel */ = {
 			isa = PBXGroup;
 			children = (
+				07039A0B1D79504A0026801E /* ZJCLiveHandler.h */,
+				07039A0C1D79504A0026801E /* ZJCLiveHandler.m */,
 			);
 			path = Handel;
 			sourceTree = "<group>";
@@ -418,6 +446,11 @@
 		078EFF9B1D77BF7D00DCAD52 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				07C7F6DD1D7867D100AAC8A7 /* ZJCHeaderView.h */,
+				07C7F6DE1D7867D100AAC8A7 /* ZJCHeaderView.m */,
+				07039A1B1D7956CB0026801E /* ZJCLiveTableViewCell.h */,
+				07039A1C1D7956CB0026801E /* ZJCLiveTableViewCell.m */,
+				07039A1D1D7956CB0026801E /* ZJCLiveTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -432,7 +465,6 @@
 				07C7F6AD1D780AF900AAC8A7 /* ZJCFocuseViewController.xib */,
 				07C7F6B01D780B0900AAC8A7 /* ZJCHotViewController.h */,
 				07C7F6B11D780B0900AAC8A7 /* ZJCHotViewController.m */,
-				07C7F6B21D780B0900AAC8A7 /* ZJCHotViewController.xib */,
 				07C7F6B51D780B1600AAC8A7 /* ZJCNearViewController.h */,
 				07C7F6B61D780B1600AAC8A7 /* ZJCNearViewController.m */,
 				07C7F6B71D780B1600AAC8A7 /* ZJCNearViewController.xib */,
@@ -586,11 +618,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				07C7F6AF1D780AF900AAC8A7 /* ZJCFocuseViewController.xib in Resources */,
-				07C7F6B41D780B0900AAC8A7 /* ZJCHotViewController.xib in Resources */,
 				078EFF3E1D77BD3D00DCAD52 /* LaunchScreen.storyboard in Resources */,
 				078EFF3B1D77BD3D00DCAD52 /* Assets.xcassets in Resources */,
 				078EFFC31D7803DB00DCAD52 /* ZJCLaunchViewController.xib in Resources */,
 				078EFF391D77BD3D00DCAD52 /* Main.storyboard in Resources */,
+				07039A1F1D7956CB0026801E /* ZJCLiveTableViewCell.xib in Resources */,
 				078EFFBB1D77DE4000DCAD52 /* ZJCMeViewController.xib in Resources */,
 				07C7F6B91D780B1600AAC8A7 /* ZJCNearViewController.xib in Resources */,
 			);
@@ -740,11 +772,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07039A0D1D79504A0026801E /* ZJCLiveHandler.m in Sources */,
 				078EFFBA1D77DE4000DCAD52 /* ZJCMeViewController.m in Sources */,
+				07039A191D7954340026801E /* HttpTool.m in Sources */,
+				07C7F6DF1D7867D100AAC8A7 /* ZJCHeaderView.m in Sources */,
+				07039A1E1D7956CB0026801E /* ZJCLiveTableViewCell.m in Sources */,
 				07C7F6B81D780B1600AAC8A7 /* ZJCNearViewController.m in Sources */,
 				078EFFA11D77C04E00DCAD52 /* ViewController.m in Sources */,
 				07C7F6AE1D780AF900AAC8A7 /* ZJCFocuseViewController.m in Sources */,
 				078EFF9E1D77BF7D00DCAD52 /* AppDelegate.m in Sources */,
+				07039A1A1D7954340026801E /* UIImageView+SDWebImage.m in Sources */,
+				07039A0A1D794FA30026801E /* ZJCBaceHandler.m in Sources */,
 				078EFFB01D77DD6F00DCAD52 /* ZJCViewController.m in Sources */,
 				078EFF301D77BD3D00DCAD52 /* main.m in Sources */,
 				07C7F6B31D780B0900AAC8A7 /* ZJCHotViewController.m in Sources */,
