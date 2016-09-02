@@ -39,6 +39,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SVProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>YYKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -57,12 +62,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>3E40CDA61BF9460D254AA27893F2F646</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>53480ED0BE09FF49E34B1702D485CAAB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>912C71AEB386861E48A2F8520A8B37A5</key>
+		<key>73C83B2B170132CFD085D90155F74873</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>896365EF5744A033D556D902FCE3A99B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -77,12 +92,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A381D5B1FF86AE14072E935DEDB92651</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FC0299312C35C683B5FC91D2A32739BC</key>
+		<key>D5D2CDC50B10064D582B388580F30C9D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

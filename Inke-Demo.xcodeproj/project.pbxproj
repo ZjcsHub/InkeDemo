@@ -24,7 +24,6 @@
 		078EFFA61D77D15400DCAD52 /* ZJCTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 078EFFA51D77D15400DCAD52 /* ZJCTabbarController.m */; };
 		078EFFA91D77D19600DCAD52 /* ZJCTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 078EFFA81D77D19600DCAD52 /* ZJCTabbar.m */; };
 		078EFFAC1D77DCC700DCAD52 /* ZJCBaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 078EFFAB1D77DCC700DCAD52 /* ZJCBaceViewController.m */; };
-		078EFFB01D77DD6F00DCAD52 /* ZJCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 078EFFAE1D77DD6F00DCAD52 /* ZJCViewController.m */; };
 		078EFFBA1D77DE4000DCAD52 /* ZJCMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 078EFFB81D77DE4000DCAD52 /* ZJCMeViewController.m */; };
 		078EFFBB1D77DE4000DCAD52 /* ZJCMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 078EFFB91D77DE4000DCAD52 /* ZJCMeViewController.xib */; };
 		078EFFBE1D77F92700DCAD52 /* ZJCNacVontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 078EFFBD1D77F92700DCAD52 /* ZJCNacVontroller.m */; };
@@ -36,6 +35,12 @@
 		07C7F6B81D780B1600AAC8A7 /* ZJCNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C7F6B61D780B1600AAC8A7 /* ZJCNearViewController.m */; };
 		07C7F6B91D780B1600AAC8A7 /* ZJCNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C7F6B71D780B1600AAC8A7 /* ZJCNearViewController.xib */; };
 		07C7F6DF1D7867D100AAC8A7 /* ZJCHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C7F6DE1D7867D100AAC8A7 /* ZJCHeaderView.m */; };
+		07EAA5C11D79B46A00766E73 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EAA5C01D79B46A00766E73 /* UIView+Toast.m */; };
+		07EFB9D61D799725000C1ED3 /* ZJCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EFB9D41D799725000C1ED3 /* ZJCMainViewController.m */; };
+		07EFB9D71D799725000C1ED3 /* ZJCMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07EFB9D51D799725000C1ED3 /* ZJCMainViewController.xib */; };
+		07EFB9DE1D79A335000C1ED3 /* Creator.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EFB9D91D79A335000C1ED3 /* Creator.m */; };
+		07EFB9DF1D79A335000C1ED3 /* LiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EFB9DB1D79A335000C1ED3 /* LiveModel.m */; };
+		07EFB9E01D79A335000C1ED3 /* Lives.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EFB9DD1D79A335000C1ED3 /* Lives.m */; };
 		321AC6EF8A20FA0A5098FA94 /* libPods-Inke-DemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F4311CFBF657F34356A626 /* libPods-Inke-DemoUITests.a */; };
 		F699D6DB6E5B24AB0320B93B /* libPods-Inke-DemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 662E8AE5C53161C6964E2E39 /* libPods-Inke-DemoTests.a */; };
 		FD0F1257D7014F0290B33E4B /* libPods-Inke-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B013C72782DD9FC3FDF9BC /* libPods-Inke-Demo.a */; };
@@ -95,8 +100,6 @@
 		078EFFA81D77D19600DCAD52 /* ZJCTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCTabbar.m; sourceTree = "<group>"; };
 		078EFFAA1D77DCC700DCAD52 /* ZJCBaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCBaceViewController.h; sourceTree = "<group>"; };
 		078EFFAB1D77DCC700DCAD52 /* ZJCBaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCBaceViewController.m; sourceTree = "<group>"; };
-		078EFFAD1D77DD6F00DCAD52 /* ZJCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCViewController.h; sourceTree = "<group>"; };
-		078EFFAE1D77DD6F00DCAD52 /* ZJCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCViewController.m; sourceTree = "<group>"; };
 		078EFFB71D77DE4000DCAD52 /* ZJCMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCMeViewController.h; sourceTree = "<group>"; };
 		078EFFB81D77DE4000DCAD52 /* ZJCMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCMeViewController.m; sourceTree = "<group>"; };
 		078EFFB91D77DE4000DCAD52 /* ZJCMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJCMeViewController.xib; sourceTree = "<group>"; };
@@ -115,6 +118,17 @@
 		07C7F6B71D780B1600AAC8A7 /* ZJCNearViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJCNearViewController.xib; sourceTree = "<group>"; };
 		07C7F6DD1D7867D100AAC8A7 /* ZJCHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCHeaderView.h; sourceTree = "<group>"; };
 		07C7F6DE1D7867D100AAC8A7 /* ZJCHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCHeaderView.m; sourceTree = "<group>"; };
+		07EAA5BF1D79B46A00766E73 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		07EAA5C01D79B46A00766E73 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		07EFB9D31D799725000C1ED3 /* ZJCMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCMainViewController.h; sourceTree = "<group>"; };
+		07EFB9D41D799725000C1ED3 /* ZJCMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCMainViewController.m; sourceTree = "<group>"; };
+		07EFB9D51D799725000C1ED3 /* ZJCMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJCMainViewController.xib; sourceTree = "<group>"; };
+		07EFB9D81D79A335000C1ED3 /* Creator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Creator.h; sourceTree = "<group>"; };
+		07EFB9D91D79A335000C1ED3 /* Creator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Creator.m; sourceTree = "<group>"; };
+		07EFB9DA1D79A335000C1ED3 /* LiveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveModel.h; sourceTree = "<group>"; };
+		07EFB9DB1D79A335000C1ED3 /* LiveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveModel.m; sourceTree = "<group>"; };
+		07EFB9DC1D79A335000C1ED3 /* Lives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lives.h; sourceTree = "<group>"; };
+		07EFB9DD1D79A335000C1ED3 /* Lives.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lives.m; sourceTree = "<group>"; };
 		1024C5CD632A51E0282DFDE3 /* Pods-Inke-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inke-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Inke-Demo/Pods-Inke-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		252BD939CEA1CEE964EE733E /* Pods-Inke-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inke-DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Inke-DemoTests/Pods-Inke-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		57F4311CFBF657F34356A626 /* libPods-Inke-DemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Inke-DemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -399,6 +413,8 @@
 				07039A161D7954340026801E /* HttpTool.m */,
 				07039A171D7954340026801E /* UIImageView+SDWebImage.h */,
 				07039A181D7954340026801E /* UIImageView+SDWebImage.m */,
+				07EAA5BF1D79B46A00766E73 /* UIView+Toast.h */,
+				07EAA5C01D79B46A00766E73 /* UIView+Toast.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -439,6 +455,12 @@
 		078EFF9A1D77BF7D00DCAD52 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				07EFB9D81D79A335000C1ED3 /* Creator.h */,
+				07EFB9D91D79A335000C1ED3 /* Creator.m */,
+				07EFB9DA1D79A335000C1ED3 /* LiveModel.h */,
+				07EFB9DB1D79A335000C1ED3 /* LiveModel.m */,
+				07EFB9DC1D79A335000C1ED3 /* Lives.h */,
+				07EFB9DD1D79A335000C1ED3 /* Lives.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -458,8 +480,9 @@
 		078EFF9C1D77BF7D00DCAD52 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				078EFFAD1D77DD6F00DCAD52 /* ZJCViewController.h */,
-				078EFFAE1D77DD6F00DCAD52 /* ZJCViewController.m */,
+				07EFB9D31D799725000C1ED3 /* ZJCMainViewController.h */,
+				07EFB9D41D799725000C1ED3 /* ZJCMainViewController.m */,
+				07EFB9D51D799725000C1ED3 /* ZJCMainViewController.xib */,
 				07C7F6AB1D780AF900AAC8A7 /* ZJCFocuseViewController.h */,
 				07C7F6AC1D780AF900AAC8A7 /* ZJCFocuseViewController.m */,
 				07C7F6AD1D780AF900AAC8A7 /* ZJCFocuseViewController.xib */,
@@ -622,6 +645,7 @@
 				078EFF3B1D77BD3D00DCAD52 /* Assets.xcassets in Resources */,
 				078EFFC31D7803DB00DCAD52 /* ZJCLaunchViewController.xib in Resources */,
 				078EFF391D77BD3D00DCAD52 /* Main.storyboard in Resources */,
+				07EFB9D71D799725000C1ED3 /* ZJCMainViewController.xib in Resources */,
 				07039A1F1D7956CB0026801E /* ZJCLiveTableViewCell.xib in Resources */,
 				078EFFBB1D77DE4000DCAD52 /* ZJCMeViewController.xib in Resources */,
 				07C7F6B91D780B1600AAC8A7 /* ZJCNearViewController.xib in Resources */,
@@ -778,16 +802,20 @@
 				07C7F6DF1D7867D100AAC8A7 /* ZJCHeaderView.m in Sources */,
 				07039A1E1D7956CB0026801E /* ZJCLiveTableViewCell.m in Sources */,
 				07C7F6B81D780B1600AAC8A7 /* ZJCNearViewController.m in Sources */,
+				07EAA5C11D79B46A00766E73 /* UIView+Toast.m in Sources */,
 				078EFFA11D77C04E00DCAD52 /* ViewController.m in Sources */,
 				07C7F6AE1D780AF900AAC8A7 /* ZJCFocuseViewController.m in Sources */,
 				078EFF9E1D77BF7D00DCAD52 /* AppDelegate.m in Sources */,
+				07EFB9DF1D79A335000C1ED3 /* LiveModel.m in Sources */,
+				07EFB9D61D799725000C1ED3 /* ZJCMainViewController.m in Sources */,
 				07039A1A1D7954340026801E /* UIImageView+SDWebImage.m in Sources */,
 				07039A0A1D794FA30026801E /* ZJCBaceHandler.m in Sources */,
-				078EFFB01D77DD6F00DCAD52 /* ZJCViewController.m in Sources */,
 				078EFF301D77BD3D00DCAD52 /* main.m in Sources */,
 				07C7F6B31D780B0900AAC8A7 /* ZJCHotViewController.m in Sources */,
 				078EFFBE1D77F92700DCAD52 /* ZJCNacVontroller.m in Sources */,
 				078EFFAC1D77DCC700DCAD52 /* ZJCBaceViewController.m in Sources */,
+				07EFB9E01D79A335000C1ED3 /* Lives.m in Sources */,
+				07EFB9DE1D79A335000C1ED3 /* Creator.m in Sources */,
 				078EFFA61D77D15400DCAD52 /* ZJCTabbarController.m in Sources */,
 				078EFFA91D77D19600DCAD52 /* ZJCTabbar.m in Sources */,
 				078EFFC21D7803DB00DCAD52 /* ZJCLaunchViewController.m in Sources */,

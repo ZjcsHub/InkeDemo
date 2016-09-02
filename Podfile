@@ -11,6 +11,8 @@ target 'Inke-Demo' do
    pod 'YYKit', '~> 1.0.7'
    pod 'SDWebImage', '~> 3.8.1'
    pod 'MJExtension'
+   pod 'SVProgressHUD'
+
   target 'Inke-DemoTests' do
     inherit! :search_paths
     # Pods for testing
