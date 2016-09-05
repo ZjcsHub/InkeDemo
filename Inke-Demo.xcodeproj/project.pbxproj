@@ -41,6 +41,20 @@
 		07EFB9DE1D79A335000C1ED3 /* Creator.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EFB9D91D79A335000C1ED3 /* Creator.m */; };
 		07EFB9DF1D79A335000C1ED3 /* LiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EFB9DB1D79A335000C1ED3 /* LiveModel.m */; };
 		07EFB9E01D79A335000C1ED3 /* Lives.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EFB9DD1D79A335000C1ED3 /* Lives.m */; };
+		07F3FDC51D7D1C3B006DE749 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F3FDC41D7D1C3B006DE749 /* IJKMediaFramework.framework */; };
+		07F3FDC71D7D1CF6006DE749 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F3FDC61D7D1CF6006DE749 /* libz.tbd */; };
+		07F3FDC91D7D1D3D006DE749 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F3FDC81D7D1D3D006DE749 /* AudioToolbox.framework */; };
+		07F3FDCB1D7D1D47006DE749 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F3FDCA1D7D1D47006DE749 /* AVFoundation.framework */; };
+		07F3FDCD1D7D1D50006DE749 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F3FDCC1D7D1D50006DE749 /* CoreGraphics.framework */; };
+		07F3FDCF1D7D1D5A006DE749 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F3FDCE1D7D1D5A006DE749 /* CoreMedia.framework */; };
+		07F3FDD11D7D1D64006DE749 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F3FDD01D7D1D64006DE749 /* CoreVideo.framework */; };
+		07F3FDD31D7D1D6E006DE749 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F3FDD21D7D1D6E006DE749 /* libbz2.tbd */; };
+		07F3FDD51D7D1D78006DE749 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F3FDD41D7D1D78006DE749 /* MediaPlayer.framework */; };
+		07F3FDD71D7D1D84006DE749 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F3FDD61D7D1D84006DE749 /* MobileCoreServices.framework */; };
+		07F3FDD91D7D1D9A006DE749 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F3FDD81D7D1D9A006DE749 /* OpenGLES.framework */; };
+		07F3FDDB1D7D1DA9006DE749 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F3FDDA1D7D1DA9006DE749 /* QuartzCore.framework */; };
+		07F3FDDD1D7D1DB7006DE749 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F3FDDC1D7D1DB7006DE749 /* VideoToolbox.framework */; };
+		07F3FDE21D7D4938006DE749 /* ZJCPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F3FDE11D7D4938006DE749 /* ZJCPlayerViewController.m */; };
 		321AC6EF8A20FA0A5098FA94 /* libPods-Inke-DemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F4311CFBF657F34356A626 /* libPods-Inke-DemoUITests.a */; };
 		F699D6DB6E5B24AB0320B93B /* libPods-Inke-DemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 662E8AE5C53161C6964E2E39 /* libPods-Inke-DemoTests.a */; };
 		FD0F1257D7014F0290B33E4B /* libPods-Inke-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B013C72782DD9FC3FDF9BC /* libPods-Inke-Demo.a */; };
@@ -129,6 +143,21 @@
 		07EFB9DB1D79A335000C1ED3 /* LiveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveModel.m; sourceTree = "<group>"; };
 		07EFB9DC1D79A335000C1ED3 /* Lives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lives.h; sourceTree = "<group>"; };
 		07EFB9DD1D79A335000C1ED3 /* Lives.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lives.m; sourceTree = "<group>"; };
+		07F3FDC41D7D1C3B006DE749 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = "Inke-Demo/IJKMediaFramework.framework"; sourceTree = "<group>"; };
+		07F3FDC61D7D1CF6006DE749 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		07F3FDC81D7D1D3D006DE749 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		07F3FDCA1D7D1D47006DE749 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		07F3FDCC1D7D1D50006DE749 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07F3FDCE1D7D1D5A006DE749 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		07F3FDD01D7D1D64006DE749 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		07F3FDD21D7D1D6E006DE749 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		07F3FDD41D7D1D78006DE749 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		07F3FDD61D7D1D84006DE749 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		07F3FDD81D7D1D9A006DE749 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		07F3FDDA1D7D1DA9006DE749 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		07F3FDDC1D7D1DB7006DE749 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		07F3FDE01D7D4938006DE749 /* ZJCPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCPlayerViewController.h; sourceTree = "<group>"; };
+		07F3FDE11D7D4938006DE749 /* ZJCPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCPlayerViewController.m; sourceTree = "<group>"; };
 		1024C5CD632A51E0282DFDE3 /* Pods-Inke-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inke-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Inke-Demo/Pods-Inke-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		252BD939CEA1CEE964EE733E /* Pods-Inke-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inke-DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Inke-DemoTests/Pods-Inke-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		57F4311CFBF657F34356A626 /* libPods-Inke-DemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Inke-DemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +174,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07F3FDDD1D7D1DB7006DE749 /* VideoToolbox.framework in Frameworks */,
+				07F3FDDB1D7D1DA9006DE749 /* QuartzCore.framework in Frameworks */,
+				07F3FDD91D7D1D9A006DE749 /* OpenGLES.framework in Frameworks */,
+				07F3FDD71D7D1D84006DE749 /* MobileCoreServices.framework in Frameworks */,
+				07F3FDD51D7D1D78006DE749 /* MediaPlayer.framework in Frameworks */,
+				07F3FDD31D7D1D6E006DE749 /* libbz2.tbd in Frameworks */,
+				07F3FDD11D7D1D64006DE749 /* CoreVideo.framework in Frameworks */,
+				07F3FDCF1D7D1D5A006DE749 /* CoreMedia.framework in Frameworks */,
+				07F3FDCD1D7D1D50006DE749 /* CoreGraphics.framework in Frameworks */,
+				07F3FDCB1D7D1D47006DE749 /* AVFoundation.framework in Frameworks */,
+				07F3FDC91D7D1D3D006DE749 /* AudioToolbox.framework in Frameworks */,
+				07F3FDC71D7D1CF6006DE749 /* libz.tbd in Frameworks */,
+				07F3FDC51D7D1C3B006DE749 /* IJKMediaFramework.framework in Frameworks */,
 				FD0F1257D7014F0290B33E4B /* libPods-Inke-Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +530,8 @@
 				07C7F6AD1D780AF900AAC8A7 /* ZJCFocuseViewController.xib */,
 				07C7F6B01D780B0900AAC8A7 /* ZJCHotViewController.h */,
 				07C7F6B11D780B0900AAC8A7 /* ZJCHotViewController.m */,
+				07F3FDE01D7D4938006DE749 /* ZJCPlayerViewController.h */,
+				07F3FDE11D7D4938006DE749 /* ZJCPlayerViewController.m */,
 				07C7F6B51D780B1600AAC8A7 /* ZJCNearViewController.h */,
 				07C7F6B61D780B1600AAC8A7 /* ZJCNearViewController.m */,
 				07C7F6B71D780B1600AAC8A7 /* ZJCNearViewController.xib */,
@@ -508,6 +552,19 @@
 		482E7614DEEEEE51055093B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				07F3FDDC1D7D1DB7006DE749 /* VideoToolbox.framework */,
+				07F3FDDA1D7D1DA9006DE749 /* QuartzCore.framework */,
+				07F3FDD81D7D1D9A006DE749 /* OpenGLES.framework */,
+				07F3FDD61D7D1D84006DE749 /* MobileCoreServices.framework */,
+				07F3FDD41D7D1D78006DE749 /* MediaPlayer.framework */,
+				07F3FDD21D7D1D6E006DE749 /* libbz2.tbd */,
+				07F3FDD01D7D1D64006DE749 /* CoreVideo.framework */,
+				07F3FDCE1D7D1D5A006DE749 /* CoreMedia.framework */,
+				07F3FDCC1D7D1D50006DE749 /* CoreGraphics.framework */,
+				07F3FDCA1D7D1D47006DE749 /* AVFoundation.framework */,
+				07F3FDC81D7D1D3D006DE749 /* AudioToolbox.framework */,
+				07F3FDC61D7D1CF6006DE749 /* libz.tbd */,
+				07F3FDC41D7D1C3B006DE749 /* IJKMediaFramework.framework */,
 				D8B013C72782DD9FC3FDF9BC /* libPods-Inke-Demo.a */,
 				662E8AE5C53161C6964E2E39 /* libPods-Inke-DemoTests.a */,
 				57F4311CFBF657F34356A626 /* libPods-Inke-DemoUITests.a */,
@@ -803,6 +860,7 @@
 				07039A1E1D7956CB0026801E /* ZJCLiveTableViewCell.m in Sources */,
 				07C7F6B81D780B1600AAC8A7 /* ZJCNearViewController.m in Sources */,
 				07EAA5C11D79B46A00766E73 /* UIView+Toast.m in Sources */,
+				07F3FDE21D7D4938006DE749 /* ZJCPlayerViewController.m in Sources */,
 				078EFFA11D77C04E00DCAD52 /* ViewController.m in Sources */,
 				07C7F6AE1D780AF900AAC8A7 /* ZJCFocuseViewController.m in Sources */,
 				078EFF9E1D77BF7D00DCAD52 /* AppDelegate.m in Sources */,
@@ -961,6 +1019,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Inke-Demo",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Inke-Demo/Class/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "Inke-Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -976,6 +1038,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Inke-Demo",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Inke-Demo/Class/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "Inke-Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
