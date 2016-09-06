@@ -13,6 +13,15 @@
 		07039A1A1D7954340026801E /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 07039A181D7954340026801E /* UIImageView+SDWebImage.m */; };
 		07039A1E1D7956CB0026801E /* ZJCLiveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07039A1C1D7956CB0026801E /* ZJCLiveTableViewCell.m */; };
 		07039A1F1D7956CB0026801E /* ZJCLiveTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07039A1D1D7956CB0026801E /* ZJCLiveTableViewCell.xib */; };
+		076F4C821D7E4FE900809784 /* ZJCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F4C811D7E4FE900809784 /* ZJCLocationManager.m */; };
+		076F4C841D7E50D400809784 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076F4C831D7E50D400809784 /* CoreLocation.framework */; };
+		076F4C881D7E5C8800809784 /* ZJCNearCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F4C861D7E5C8800809784 /* ZJCNearCollectionViewCell.m */; };
+		076F4C891D7E5C8800809784 /* ZJCNearCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 076F4C871D7E5C8800809784 /* ZJCNearCollectionViewCell.xib */; };
+		076F4C8C1D7E979300809784 /* AdvertisementModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F4C8B1D7E979300809784 /* AdvertisementModel.m */; };
+		076F4C8F1D7E987500809784 /* Link.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F4C8E1D7E987500809784 /* Link.m */; };
+		076F4C971D7E9B2700809784 /* AdvertisementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F4C961D7E9B2700809784 /* AdvertisementView.m */; };
+		076F4C991D7E9B4400809784 /* AdvertisementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 076F4C981D7E9B4400809784 /* AdvertisementView.xib */; };
+		076F4C9C1D7EA10700809784 /* ZJCCacheHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F4C9B1D7EA10700809784 /* ZJCCacheHelper.m */; };
 		078EFF301D77BD3D00DCAD52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 078EFF2F1D77BD3D00DCAD52 /* main.m */; };
 		078EFF391D77BD3D00DCAD52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078EFF371D77BD3D00DCAD52 /* Main.storyboard */; };
 		078EFF3B1D77BD3D00DCAD52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078EFF3A1D77BD3D00DCAD52 /* Assets.xcassets */; };
@@ -55,6 +64,8 @@
 		07F3FDDB1D7D1DA9006DE749 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F3FDDA1D7D1DA9006DE749 /* QuartzCore.framework */; };
 		07F3FDDD1D7D1DB7006DE749 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F3FDDC1D7D1DB7006DE749 /* VideoToolbox.framework */; };
 		07F3FDE21D7D4938006DE749 /* ZJCPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F3FDE11D7D4938006DE749 /* ZJCPlayerViewController.m */; };
+		07F3FDE61D7D60EB006DE749 /* ZJCLiveChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F3FDE41D7D60EB006DE749 /* ZJCLiveChatViewController.m */; };
+		07F3FDE71D7D60EB006DE749 /* ZJCLiveChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F3FDE51D7D60EB006DE749 /* ZJCLiveChatViewController.xib */; };
 		321AC6EF8A20FA0A5098FA94 /* libPods-Inke-DemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F4311CFBF657F34356A626 /* libPods-Inke-DemoUITests.a */; };
 		F699D6DB6E5B24AB0320B93B /* libPods-Inke-DemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 662E8AE5C53161C6964E2E39 /* libPods-Inke-DemoTests.a */; };
 		FD0F1257D7014F0290B33E4B /* libPods-Inke-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B013C72782DD9FC3FDF9BC /* libPods-Inke-Demo.a */; };
@@ -90,6 +101,21 @@
 		07039A1B1D7956CB0026801E /* ZJCLiveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCLiveTableViewCell.h; sourceTree = "<group>"; };
 		07039A1C1D7956CB0026801E /* ZJCLiveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCLiveTableViewCell.m; sourceTree = "<group>"; };
 		07039A1D1D7956CB0026801E /* ZJCLiveTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJCLiveTableViewCell.xib; sourceTree = "<group>"; };
+		076F4C801D7E4FE900809784 /* ZJCLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCLocationManager.h; sourceTree = "<group>"; };
+		076F4C811D7E4FE900809784 /* ZJCLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCLocationManager.m; sourceTree = "<group>"; };
+		076F4C831D7E50D400809784 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		076F4C851D7E5C8800809784 /* ZJCNearCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCNearCollectionViewCell.h; sourceTree = "<group>"; };
+		076F4C861D7E5C8800809784 /* ZJCNearCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCNearCollectionViewCell.m; sourceTree = "<group>"; };
+		076F4C871D7E5C8800809784 /* ZJCNearCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJCNearCollectionViewCell.xib; sourceTree = "<group>"; };
+		076F4C8A1D7E979300809784 /* AdvertisementModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertisementModel.h; sourceTree = "<group>"; };
+		076F4C8B1D7E979300809784 /* AdvertisementModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertisementModel.m; sourceTree = "<group>"; };
+		076F4C8D1D7E987500809784 /* Link.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Link.h; sourceTree = "<group>"; };
+		076F4C8E1D7E987500809784 /* Link.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Link.m; sourceTree = "<group>"; };
+		076F4C951D7E9B2700809784 /* AdvertisementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertisementView.h; sourceTree = "<group>"; };
+		076F4C961D7E9B2700809784 /* AdvertisementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertisementView.m; sourceTree = "<group>"; };
+		076F4C981D7E9B4400809784 /* AdvertisementView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvertisementView.xib; sourceTree = "<group>"; };
+		076F4C9A1D7EA10700809784 /* ZJCCacheHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCCacheHelper.h; sourceTree = "<group>"; };
+		076F4C9B1D7EA10700809784 /* ZJCCacheHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCCacheHelper.m; sourceTree = "<group>"; };
 		078EFF2B1D77BD3D00DCAD52 /* Inke-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inke-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		078EFF2F1D77BD3D00DCAD52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		078EFF381D77BD3D00DCAD52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -158,6 +184,9 @@
 		07F3FDDC1D7D1DB7006DE749 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		07F3FDE01D7D4938006DE749 /* ZJCPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCPlayerViewController.h; sourceTree = "<group>"; };
 		07F3FDE11D7D4938006DE749 /* ZJCPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCPlayerViewController.m; sourceTree = "<group>"; };
+		07F3FDE31D7D60EB006DE749 /* ZJCLiveChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCLiveChatViewController.h; sourceTree = "<group>"; };
+		07F3FDE41D7D60EB006DE749 /* ZJCLiveChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCLiveChatViewController.m; sourceTree = "<group>"; };
+		07F3FDE51D7D60EB006DE749 /* ZJCLiveChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJCLiveChatViewController.xib; sourceTree = "<group>"; };
 		1024C5CD632A51E0282DFDE3 /* Pods-Inke-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inke-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Inke-Demo/Pods-Inke-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		252BD939CEA1CEE964EE733E /* Pods-Inke-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inke-DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Inke-DemoTests/Pods-Inke-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		57F4311CFBF657F34356A626 /* libPods-Inke-DemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Inke-DemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,6 +203,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				076F4C841D7E50D400809784 /* CoreLocation.framework in Frameworks */,
 				07F3FDDD1D7D1DB7006DE749 /* VideoToolbox.framework in Frameworks */,
 				07F3FDDB1D7D1DA9006DE749 /* QuartzCore.framework in Frameworks */,
 				07F3FDD91D7D1D9A006DE749 /* OpenGLES.framework in Frameworks */,
@@ -323,6 +353,10 @@
 		078EFF841D77BF7D00DCAD52 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				076F4C801D7E4FE900809784 /* ZJCLocationManager.h */,
+				076F4C811D7E4FE900809784 /* ZJCLocationManager.m */,
+				076F4C9A1D7EA10700809784 /* ZJCCacheHelper.h */,
+				076F4C9B1D7EA10700809784 /* ZJCCacheHelper.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -503,6 +537,10 @@
 				07EFB9DB1D79A335000C1ED3 /* LiveModel.m */,
 				07EFB9DC1D79A335000C1ED3 /* Lives.h */,
 				07EFB9DD1D79A335000C1ED3 /* Lives.m */,
+				076F4C8A1D7E979300809784 /* AdvertisementModel.h */,
+				076F4C8B1D7E979300809784 /* AdvertisementModel.m */,
+				076F4C8D1D7E987500809784 /* Link.h */,
+				076F4C8E1D7E987500809784 /* Link.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -515,6 +553,9 @@
 				07039A1B1D7956CB0026801E /* ZJCLiveTableViewCell.h */,
 				07039A1C1D7956CB0026801E /* ZJCLiveTableViewCell.m */,
 				07039A1D1D7956CB0026801E /* ZJCLiveTableViewCell.xib */,
+				076F4C951D7E9B2700809784 /* AdvertisementView.h */,
+				076F4C961D7E9B2700809784 /* AdvertisementView.m */,
+				076F4C981D7E9B4400809784 /* AdvertisementView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -532,9 +573,15 @@
 				07C7F6B11D780B0900AAC8A7 /* ZJCHotViewController.m */,
 				07F3FDE01D7D4938006DE749 /* ZJCPlayerViewController.h */,
 				07F3FDE11D7D4938006DE749 /* ZJCPlayerViewController.m */,
+				07F3FDE31D7D60EB006DE749 /* ZJCLiveChatViewController.h */,
+				07F3FDE41D7D60EB006DE749 /* ZJCLiveChatViewController.m */,
+				07F3FDE51D7D60EB006DE749 /* ZJCLiveChatViewController.xib */,
 				07C7F6B51D780B1600AAC8A7 /* ZJCNearViewController.h */,
 				07C7F6B61D780B1600AAC8A7 /* ZJCNearViewController.m */,
 				07C7F6B71D780B1600AAC8A7 /* ZJCNearViewController.xib */,
+				076F4C851D7E5C8800809784 /* ZJCNearCollectionViewCell.h */,
+				076F4C861D7E5C8800809784 /* ZJCNearCollectionViewCell.m */,
+				076F4C871D7E5C8800809784 /* ZJCNearCollectionViewCell.xib */,
 				078EFFB71D77DE4000DCAD52 /* ZJCMeViewController.h */,
 				078EFFB81D77DE4000DCAD52 /* ZJCMeViewController.m */,
 				078EFFB91D77DE4000DCAD52 /* ZJCMeViewController.xib */,
@@ -552,6 +599,7 @@
 		482E7614DEEEEE51055093B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				076F4C831D7E50D400809784 /* CoreLocation.framework */,
 				07F3FDDC1D7D1DB7006DE749 /* VideoToolbox.framework */,
 				07F3FDDA1D7D1DA9006DE749 /* QuartzCore.framework */,
 				07F3FDD81D7D1D9A006DE749 /* OpenGLES.framework */,
@@ -701,8 +749,11 @@
 				078EFF3E1D77BD3D00DCAD52 /* LaunchScreen.storyboard in Resources */,
 				078EFF3B1D77BD3D00DCAD52 /* Assets.xcassets in Resources */,
 				078EFFC31D7803DB00DCAD52 /* ZJCLaunchViewController.xib in Resources */,
+				076F4C991D7E9B4400809784 /* AdvertisementView.xib in Resources */,
 				078EFF391D77BD3D00DCAD52 /* Main.storyboard in Resources */,
 				07EFB9D71D799725000C1ED3 /* ZJCMainViewController.xib in Resources */,
+				076F4C891D7E5C8800809784 /* ZJCNearCollectionViewCell.xib in Resources */,
+				07F3FDE71D7D60EB006DE749 /* ZJCLiveChatViewController.xib in Resources */,
 				07039A1F1D7956CB0026801E /* ZJCLiveTableViewCell.xib in Resources */,
 				078EFFBB1D77DE4000DCAD52 /* ZJCMeViewController.xib in Resources */,
 				07C7F6B91D780B1600AAC8A7 /* ZJCNearViewController.xib in Resources */,
@@ -856,6 +907,7 @@
 				07039A0D1D79504A0026801E /* ZJCLiveHandler.m in Sources */,
 				078EFFBA1D77DE4000DCAD52 /* ZJCMeViewController.m in Sources */,
 				07039A191D7954340026801E /* HttpTool.m in Sources */,
+				076F4C9C1D7EA10700809784 /* ZJCCacheHelper.m in Sources */,
 				07C7F6DF1D7867D100AAC8A7 /* ZJCHeaderView.m in Sources */,
 				07039A1E1D7956CB0026801E /* ZJCLiveTableViewCell.m in Sources */,
 				07C7F6B81D780B1600AAC8A7 /* ZJCNearViewController.m in Sources */,
@@ -864,18 +916,24 @@
 				078EFFA11D77C04E00DCAD52 /* ViewController.m in Sources */,
 				07C7F6AE1D780AF900AAC8A7 /* ZJCFocuseViewController.m in Sources */,
 				078EFF9E1D77BF7D00DCAD52 /* AppDelegate.m in Sources */,
+				076F4C8F1D7E987500809784 /* Link.m in Sources */,
+				07F3FDE61D7D60EB006DE749 /* ZJCLiveChatViewController.m in Sources */,
 				07EFB9DF1D79A335000C1ED3 /* LiveModel.m in Sources */,
 				07EFB9D61D799725000C1ED3 /* ZJCMainViewController.m in Sources */,
 				07039A1A1D7954340026801E /* UIImageView+SDWebImage.m in Sources */,
+				076F4C8C1D7E979300809784 /* AdvertisementModel.m in Sources */,
 				07039A0A1D794FA30026801E /* ZJCBaceHandler.m in Sources */,
 				078EFF301D77BD3D00DCAD52 /* main.m in Sources */,
 				07C7F6B31D780B0900AAC8A7 /* ZJCHotViewController.m in Sources */,
+				076F4C821D7E4FE900809784 /* ZJCLocationManager.m in Sources */,
 				078EFFBE1D77F92700DCAD52 /* ZJCNacVontroller.m in Sources */,
+				076F4C881D7E5C8800809784 /* ZJCNearCollectionViewCell.m in Sources */,
 				078EFFAC1D77DCC700DCAD52 /* ZJCBaceViewController.m in Sources */,
 				07EFB9E01D79A335000C1ED3 /* Lives.m in Sources */,
 				07EFB9DE1D79A335000C1ED3 /* Creator.m in Sources */,
 				078EFFA61D77D15400DCAD52 /* ZJCTabbarController.m in Sources */,
 				078EFFA91D77D19600DCAD52 /* ZJCTabbar.m in Sources */,
+				076F4C971D7E9B2700809784 /* AdvertisementView.m in Sources */,
 				078EFFC21D7803DB00DCAD52 /* ZJCLaunchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
