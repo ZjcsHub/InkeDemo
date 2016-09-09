@@ -12,6 +12,7 @@ target 'Inke-Demo' do
    pod 'SDWebImage', '~> 3.8.1'
    pod 'MJExtension'
    pod 'SVProgressHUD'
+   pod 'LFLiveKit'
 
   target 'Inke-DemoTests' do
     inherit! :search_paths
