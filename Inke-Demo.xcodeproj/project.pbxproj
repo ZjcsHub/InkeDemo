@@ -94,6 +94,14 @@
 		07F3FDE21D7D4938006DE749 /* ZJCPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F3FDE11D7D4938006DE749 /* ZJCPlayerViewController.m */; };
 		07F3FDE61D7D60EB006DE749 /* ZJCLiveChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F3FDE41D7D60EB006DE749 /* ZJCLiveChatViewController.m */; };
 		07F3FDE71D7D60EB006DE749 /* ZJCLiveChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F3FDE51D7D60EB006DE749 /* ZJCLiveChatViewController.xib */; };
+		07FB51D31D8E4042000A21AD /* camra_beauty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FB51CB1D8E4042000A21AD /* camra_beauty@2x.png */; };
+		07FB51D41D8E4042000A21AD /* camra_beauty@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FB51CC1D8E4042000A21AD /* camra_beauty@3x.png */; };
+		07FB51D51D8E4042000A21AD /* camra_beauty_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FB51CD1D8E4042000A21AD /* camra_beauty_close@2x.png */; };
+		07FB51D61D8E4042000A21AD /* camra_beauty_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FB51CE1D8E4042000A21AD /* camra_beauty_close@3x.png */; };
+		07FB51D71D8E4042000A21AD /* camra_preview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FB51CF1D8E4042000A21AD /* camra_preview@2x.png */; };
+		07FB51D81D8E4042000A21AD /* camra_preview@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FB51D01D8E4042000A21AD /* camra_preview@3x.png */; };
+		07FB51D91D8E4042000A21AD /* close_preview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FB51D11D8E4042000A21AD /* close_preview@2x.png */; };
+		07FB51DA1D8E4042000A21AD /* close_preview@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FB51D21D8E4042000A21AD /* close_preview@3x.png */; };
 		321AC6EF8A20FA0A5098FA94 /* libPods-Inke-DemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F4311CFBF657F34356A626 /* libPods-Inke-DemoUITests.a */; };
 		F699D6DB6E5B24AB0320B93B /* libPods-Inke-DemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 662E8AE5C53161C6964E2E39 /* libPods-Inke-DemoTests.a */; };
 		FD0F1257D7014F0290B33E4B /* libPods-Inke-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B013C72782DD9FC3FDF9BC /* libPods-Inke-Demo.a */; };
@@ -280,6 +288,14 @@
 		07F3FDE31D7D60EB006DE749 /* ZJCLiveChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCLiveChatViewController.h; sourceTree = "<group>"; };
 		07F3FDE41D7D60EB006DE749 /* ZJCLiveChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCLiveChatViewController.m; sourceTree = "<group>"; };
 		07F3FDE51D7D60EB006DE749 /* ZJCLiveChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJCLiveChatViewController.xib; sourceTree = "<group>"; };
+		07FB51CB1D8E4042000A21AD /* camra_beauty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty@2x.png"; sourceTree = "<group>"; };
+		07FB51CC1D8E4042000A21AD /* camra_beauty@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty@3x.png"; sourceTree = "<group>"; };
+		07FB51CD1D8E4042000A21AD /* camra_beauty_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty_close@2x.png"; sourceTree = "<group>"; };
+		07FB51CE1D8E4042000A21AD /* camra_beauty_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty_close@3x.png"; sourceTree = "<group>"; };
+		07FB51CF1D8E4042000A21AD /* camra_preview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_preview@2x.png"; sourceTree = "<group>"; };
+		07FB51D01D8E4042000A21AD /* camra_preview@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_preview@3x.png"; sourceTree = "<group>"; };
+		07FB51D11D8E4042000A21AD /* close_preview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_preview@2x.png"; sourceTree = "<group>"; };
+		07FB51D21D8E4042000A21AD /* close_preview@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_preview@3x.png"; sourceTree = "<group>"; };
 		1024C5CD632A51E0282DFDE3 /* Pods-Inke-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inke-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Inke-Demo/Pods-Inke-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		252BD939CEA1CEE964EE733E /* Pods-Inke-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inke-DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Inke-DemoTests/Pods-Inke-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		57F4311CFBF657F34356A626 /* libPods-Inke-DemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Inke-DemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -662,6 +678,7 @@
 		078EFF8D1D77BF7D00DCAD52 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				07FB51CA1D8E4036000A21AD /* Images */,
 				076F4CCE1D7FAEFF00809784 /* LFLivePreview.h */,
 				076F4CCF1D7FAEFF00809784 /* LFLivePreview.m */,
 			);
@@ -834,6 +851,21 @@
 			path = Vander;
 			sourceTree = "<group>";
 		};
+		07FB51CA1D8E4036000A21AD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				07FB51CB1D8E4042000A21AD /* camra_beauty@2x.png */,
+				07FB51CC1D8E4042000A21AD /* camra_beauty@3x.png */,
+				07FB51CD1D8E4042000A21AD /* camra_beauty_close@2x.png */,
+				07FB51CE1D8E4042000A21AD /* camra_beauty_close@3x.png */,
+				07FB51CF1D8E4042000A21AD /* camra_preview@2x.png */,
+				07FB51D01D8E4042000A21AD /* camra_preview@3x.png */,
+				07FB51D11D8E4042000A21AD /* close_preview@2x.png */,
+				07FB51D21D8E4042000A21AD /* close_preview@3x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		482E7614DEEEEE51055093B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -987,29 +1019,37 @@
 				07C7F6AF1D780AF900AAC8A7 /* ZJCFocuseViewController.xib in Resources */,
 				078EFF3E1D77BD3D00DCAD52 /* LaunchScreen.storyboard in Resources */,
 				078EFF3B1D77BD3D00DCAD52 /* Assets.xcassets in Resources */,
+				07FB51D91D8E4042000A21AD /* close_preview@2x.png in Resources */,
 				078EFFC31D7803DB00DCAD52 /* ZJCLaunchViewController.xib in Resources */,
+				07FB51D71D8E4042000A21AD /* camra_preview@2x.png in Resources */,
 				076F4D201D7FFCD100809784 /* UMSLoginViewController.xib in Resources */,
 				076F4C991D7E9B4400809784 /* AdvertisementView.xib in Resources */,
 				078EFF391D77BD3D00DCAD52 /* Main.storyboard in Resources */,
 				076F4D1B1D7FFCD100809784 /* UMSCommentDetailController.xib in Resources */,
+				07FB51D51D8E4042000A21AD /* camra_beauty_close@2x.png in Resources */,
 				076F4D191D7FFCD100809784 /* UMSocialLocalizable.strings in Resources */,
 				07EFB9D71D799725000C1ED3 /* ZJCMainViewController.xib in Resources */,
 				076F4C891D7E5C8800809784 /* ZJCNearCollectionViewCell.xib in Resources */,
 				076F4D1D1D7FFCD100809784 /* UMSCommentInputControlleriPad.xib in Resources */,
 				076F4D1C1D7FFCD100809784 /* UMSCommentInputController.xib in Resources */,
 				076F4D361D800CA700809784 /* HeaderView.xib in Resources */,
+				07FB51D61D8E4042000A21AD /* camra_beauty_close@3x.png in Resources */,
+				07FB51D41D8E4042000A21AD /* camra_beauty@3x.png in Resources */,
 				076F4D211D7FFCD100809784 /* UMSnsAccountViewController.xib in Resources */,
 				07F3FDE71D7D60EB006DE749 /* ZJCLiveChatViewController.xib in Resources */,
 				076F4D231D7FFCD100809784 /* UMSocialSDKResourcesNew.bundle in Resources */,
 				076F4D2E1D7FFCD100809784 /* README.txt in Resources */,
 				07039A1F1D7956CB0026801E /* ZJCLiveTableViewCell.xib in Resources */,
+				07FB51D81D8E4042000A21AD /* camra_preview@3x.png in Resources */,
 				076F4D1F1D7FFCD100809784 /* UMShareEditViewControlleriPad.xib in Resources */,
 				076F4D2B1D7FFCD100809784 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				076F4D1E1D7FFCD100809784 /* UMShareEditViewController.xib in Resources */,
 				076F4CD51D7FE70800809784 /* ZJCLoginView.xib in Resources */,
+				07FB51DA1D8E4042000A21AD /* close_preview@3x.png in Resources */,
 				076F4D221D7FFCD100809784 /* UMSShareListController.xib in Resources */,
 				07C7F6B91D780B1600AAC8A7 /* ZJCNearViewController.xib in Resources */,
 				076F4D281D7FFCD100809784 /* WeiboSDK.bundle in Resources */,
+				07FB51D31D8E4042000A21AD /* camra_beauty@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
